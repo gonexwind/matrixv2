@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Matrix</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="particles-js"></div>
+
+	<div class="container">
+
+		<div class="jumbotron header">
+			<h1>Matrix</h1>
+			<a href="about.html" class="">About Us</a>
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6">
+				<h2>Ordo 2x2</h2>
+				<br>
+				<form name="matrix2">
+					<input class="form-control" type="text" name="a1" autocomplete="off">
+					<input class="form-control" type="text" name="a2" autocomplete="off"><br>
+					<input class="form-control" type="text" name="a3" autocomplete="off">
+					<input class="form-control" type="text" name="a4" autocomplete="off"><br>
+					<input id="go2" class="btn btn-light btn-lg go" type="button" name="ordo2" value="Go"
+						onclick="ordoDua()"><br><br>
+					<div id="hasil2">
+						<p>Hasil Determinan : <br>
+							<input type="text" class="form-control" name="hd2">
+						</p>
+						<p>Hasil Adjoin : <br>
+							<input type="text" class="form-control" name="aa1">
+							<input type="text" class="form-control" name="aa2"><br>
+							<input type="text" class="form-control" name="aa3">
+							<input type="text" class="form-control" name="aa4">
+						</p>
+						
+						<p>Hasil Invers : <br>
+							<input type="text" class="form-control" name="ai1">
+							<input type="text" class="form-control" name="ai2"><br>
+							<input type="text" class="form-control" name="ai3">
+							<input type="text" class="form-control" name="ai4">
+						</p>
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<h2>Ordo 3x3</h2>
+				<br>
+				<form name="matrix3">
+					<input class="form-control" type="text" name="b1" autocomplete="off">
+					<input class="form-control" type="text" name="b2" autocomplete="off">
+					<input class="form-control" type="text" name="b3" autocomplete="off"><br>
+					<input class="form-control" type="text" name="b4" autocomplete="off">
+					<input class="form-control" type="text" name="b5" autocomplete="off">
+					<input class="form-control" type="text" name="b6" autocomplete="off"><br>
+					<input class="form-control" type="text" name="b7" autocomplete="off">
+					<input class="form-control" type="text" name="b8" autocomplete="off">
+					<input class="form-control" type="text" name="b9" autocomplete="off"><br>
+					<input id="go3" class="btn btn-light btn-lg go" type="button" value="Go" onclick="ordoTiga()"><br><br>
+					<div id="hasil3">
+						<p class="determinan3">Hasil Determinan : <br>
+							<input type="text" class="form-control" name="hd3">
+						</p>
+						<p class="adjoin3">Hasil Kofaktor : <br>
+							<input type="text" class="form-control" name="hk1">
+							<input type="text" class="form-control" name="hk2">
+							<input type="text" class="form-control" name="hk3"><br>
+							<input type="text" class="form-control" name="hk4">
+							<input type="text" class="form-control" name="hk5">
+							<input type="text" class="form-control" name="hk6"><br>
+							<input type="text" class="form-control" name="hk7">
+							<input type="text" class="form-control" name="hk8">
+							<input type="text" class="form-control" name="hk9"><br>
+						</p>
+						<p class="adjoin3">Hasil Adjoin : <br>
+							<input type="text" class="form-control" name="ha1">
+							<input type="text" class="form-control" name="ha2">
+							<input type="text" class="form-control" name="ha3"><br>
+							<input type="text" class="form-control" name="ha4">
+							<input type="text" class="form-control" name="ha5">
+							<input type="text" class="form-control" name="ha6"><br>
+							<input type="text" class="form-control" name="ha7">
+							<input type="text" class="form-control" name="ha8">
+							<input type="text" class="form-control" name="ha9"><br>
+						</p>
+						<p class="invers3">Hasil Invers : <br>
+							<input type="text" class="form-control" name="hi1">
+							<input type="text" class="form-control" name="hi2">
+							<input type="text" class="form-control" name="hi3"><br>
+							<input type="text" class="form-control" name="hi4">
+							<input type="text" class="form-control" name="hi5">
+							<input type="text" class="form-control" name="hi6"><br>
+							<input type="text" class="form-control" name="hi7">
+							<input type="text" class="form-control" name="hi8">
+							<input type="text" class="form-control" name="hi9"><br>
+						</p>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/particles_script.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
