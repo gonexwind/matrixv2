@@ -1,3 +1,7 @@
 # matrixv2
 
-https://fikky1.github.io/matrixv2/index.html
+Simple Matrix Apps v2
+
+Build with html, css, and javascript.
+
+[Matrix Apps v2](https://gonexwind.github.io/matrixv2)
