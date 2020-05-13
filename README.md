@@ -6,4 +6,4 @@ Build with html, css, and javascript.
 
 [Matrix Apps v2](https://gonexwind.github.io/matrixv2)
 
-<img href="ss.png" width="50%" />
+<img src="ss.png" width="50%" />
